@@ -8,8 +8,19 @@ function App() {
   // let ct=0;
   const addone=()=>{
     // ct=ct+1;
-    counter+=1
-    setCounter(counter)
+    // setCounter(counter+1)
+    // setCounter(counter+1)
+    // setCounter(counter+1)
+    // setCounter(counter+1)
+    // setCounter(counter+1)
+
+    // above code will increse value by 1 because this will pass in batches with same value and they all will return same value
+
+    // to update it multiple time we have to use property of usestate, as usestate is a method so we can pass a callback, it will fetch the most recent value of counter.
+    setCounter(prevCounter=> prevCounter+1);
+    setCounter(prevCounter=> prevCounter+1);
+    setCounter(prevCounter=> prevCounter+1);
+    setCounter(prevCounter=> prevCounter+1);
   }
   const removeone=()=>{
     // ct-=1;

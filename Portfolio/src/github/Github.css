@@ -1,0 +1,92 @@
+.github-card {
+    max-width: 350px;
+    margin: 40px auto;
+    padding: 2rem 1.5rem;
+    border-radius: 20px;
+    box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+    background: rgba(255, 255, 255, 0.15);
+    backdrop-filter: blur(8px);
+    border: 1px solid rgba(255,255,255,0.18);
+    text-align: center;
+    font-family: 'Segoe UI', 'Roboto', Arial, sans-serif;
+    transition: box-shadow 0.3s;
+}
+
+.github-card:hover {
+    box-shadow: 0 12px 40px 0 rgba(31, 38, 135, 0.45);
+}
+
+.github-avatar {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    border: 4px solid #fff;
+    margin-bottom: 1rem;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.08);
+}
+
+.github-name {
+    font-size: 1.5rem;
+    font-weight: 700;
+    margin: 0.5rem 0 0.2rem 0;
+    color: #22223b;
+}
+
+.github-username {
+    color: #4a4e69;
+    font-size: 1rem;
+    margin-bottom: 1rem;
+}
+
+.github-stats {
+    display: flex;
+    justify-content: space-around;
+    margin: 1rem 0;
+    gap: 1rem;
+}
+
+.github-label {
+    display: block;
+    font-size: 0.85rem;
+    color: #9a8c98;
+}
+
+.github-value {
+    font-size: 1.1rem;
+    font-weight: 600;
+    color: #22223b;
+}
+
+.github-bio {
+    font-size: 1rem;
+    color: #22223b;
+    margin: 1rem 0;
+    font-style: italic;
+}
+
+.github-link {
+    display: inline-block;
+    margin-top: 1rem;
+    padding: 0.6rem 1.2rem;
+    background: linear-gradient(90deg, #5f72bd 0%, #9a8c98 100%);
+    color: #fff;
+    border-radius: 8px;
+    text-decoration: none;
+    font-weight: 600;
+    letter-spacing: 0.5px;
+    transition: background 0.2s;
+}
+
+.github-link:hover {
+    background: linear-gradient(90deg, #9a8c98 0%, #5f72bd 100%);
+}
+
+.github-loading, .github-error {
+    color: #fff;
+    background: #22223b;
+    border-radius: 12px;
+    padding: 1.5rem;
+    font-size: 1.2rem;
+    margin: 40px auto;
+    max-width: 350px;
+}
